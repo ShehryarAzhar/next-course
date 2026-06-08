@@ -7,6 +7,10 @@
     winter;
 }
 
+@theme {
+  --font-poppins: var(--font-poppins);
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
 }
@@ -23,6 +27,6 @@ body {
 
 @layer base {
   h1 {
-    @apply font-extrabold text-2xl mb-3;
+    @apply font-extrabold text-2xl mb-3 font-poppins;
   }
 }
